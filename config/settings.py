@@ -33,7 +33,7 @@ FIREFOX_DRIVER = ENV_DRIVER['FIREFOX']
 IE_DRIVER = ENV_DRIVER.get('IE')
 
 # 测试数据配置，使用mongodb
-# db.createUser({user: "selenium", pwd: "selenium123", roles: [{role:"readWrite",db: "selenium"}]})
+# db.createUser({user: "", pwd: "", roles: [{role:"readWrite",db: "selenium"}]})
 
 MONGO_HOST = env('MONGO_HOST')
 MONGO_PORT = env('MONGO_PORT')
