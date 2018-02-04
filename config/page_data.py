@@ -31,5 +31,5 @@ class PageDataType:
         return self.serializer(data)
 
 
-if __name__ == '__main__':
-    print(PageDataType().login_page())
+# if __name__ == '__main__':
+#     print(PageDataType().login_page())

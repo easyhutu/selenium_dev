@@ -4,6 +4,7 @@ AUTHOR: Hehahutu
 """
 import unittest
 from ddt import ddt, data, unpack
+from tools.assert_parser.as_paser import AsParser
 
 
 @ddt
@@ -17,7 +18,7 @@ class FooTestCase(unittest.TestCase):
     @unpack
     def test_list_extracted_into_arguments(self, data):
         print(data['a'])
-        self.assertTrue('a')
+        AsParser.parser_data('in', 'i', 'i love you')
 
 
 if __name__ == '__main__':
