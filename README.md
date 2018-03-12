@@ -33,6 +33,8 @@ wrapper.__doc__ = title[0] if title else None
     "is_run" : false
 }
 ```
+### web driver
+驱动强烈建议使用selenium grid 远程调用管理，方便持续集成
 
 ### 其他
 如有兴趣共同学习探讨，邮件： 1711621009@qq.com ~
