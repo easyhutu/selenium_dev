@@ -42,7 +42,8 @@ class AsParser:
     @staticmethod
     def show_all_assert_type():
         all_type = [key for key in asType.keys()]
-        print(all_type)
+        for this_type in all_type:
+            print(this_type)
         return all_type
 
 
