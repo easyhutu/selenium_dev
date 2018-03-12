@@ -28,13 +28,14 @@ wrapper.__doc__ = title[0] if title else None
     "username" : "xxx", 
     "password" : "xxx", 
     "assert_type" : "equal", 
-    "assert_data" : "【万店掌】手机巡店系统_远程巡店_视频巡店_客流统计_客流分析_客流计数_会员识别_连锁店监控", 
-    "title" : "错误高管用户名登录--zqq", 
+    "assert_data" : "xxx", 
+    "title" : "错误用户名登录--zqq", 
     "is_run" : false
 }
 ```
 ### web driver
 驱动强烈建议使用selenium grid 远程调用管理，方便持续集成
+地址： http://selenium-release.storage.googleapis.com/index.html
 
 ### 其他
 如有兴趣共同学习探讨，邮件： 1711621009@qq.com ~
