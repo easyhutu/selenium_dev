@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 .idea
 .env
+output/logs/capture/*
+output/logs/out_logs/*
+output/test_report/*
+
 
 # C extensions
 *.so
